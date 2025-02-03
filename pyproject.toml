@@ -1,9 +1,8 @@
 [tool.poetry]
-name = "telephony-app"
+name = "your_project_name"
 version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
-readme = "README.md"
+description = "Your project description"
+authors = ["Your Name <your.email@example.com>"]
 
 [tool.poetry.dependencies]
 python = ">=3.9,<3.12"
@@ -16,5 +15,5 @@ vocode = "0.1.111a3"
 gunicorn = "^20.1"
 
 [build-system]
-requires = ["poetry-core"]
+requires = ["poetry>=1.5.1"]
 build-backend = "poetry.core.masonry.api"
